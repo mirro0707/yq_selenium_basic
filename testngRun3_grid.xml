@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<!--parallel并发方式，并发数：2-->
+<suite name="Default Suite" parallel="methods" thread-count="2">
+  <test name="test2">
+    <classes>
+      <class name="com.yq.selenium_grid.GridDemo">
+<!--        <methods>
+          <include name="assertEquals"/>
+          <include name="assertTrue" />
+        </methods>-->
+      </class> <!-- com.yq.day01.AssertTest -->
+<!--      <class name="com.yq.day01.BrowserOpenTest">
+        <methods>
+          <include name="openChrome"/>
+          <include name="openFireFoxbyDirectory"/>
+        </methods>
+      </class>
+      <class name="com.yq.day01.TestngTest">
+      </class>-->
+
+    </classes>
+  </test> <!-- test2 -->
+</suite> <!-- Default Suite -->
