@@ -1,6 +1,6 @@
 package com.yq.po.cases;
 
-import com.yq.po.pageobject.LoginPage;
+import com.yq.po.pages.LoginPage;
 import com.yq.po.service.UtilsMail;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

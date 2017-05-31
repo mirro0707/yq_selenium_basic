@@ -1,6 +1,6 @@
 package com.yq.po.cases;
 
-import com.yq.po.pageobject.RegisterPage;
+import com.yq.po.pages.RegisterPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

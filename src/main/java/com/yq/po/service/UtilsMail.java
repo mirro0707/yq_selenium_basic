@@ -1,6 +1,6 @@
 package com.yq.po.service;
 
-import com.yq.po.pageobject.LoginPage;
+import com.yq.po.pages.LoginPage;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

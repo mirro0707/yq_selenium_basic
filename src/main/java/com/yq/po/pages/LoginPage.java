@@ -1,4 +1,4 @@
-package com.yq.po.pageobject;
+package com.yq.po.pages;
 
 import org.openqa.selenium.By;
 
