@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="ParameterTest Suite">
-  <parameter name="searchkey1" value="appium"/>
-  <parameter name="searchkey2" value="selenium"/>
+<suite name="ParameterTest Suite" parallel="false">
+  <parameter name="keyword" value="appium"/>
   <test name="ParameterTestcase">
     <classes>
       <class name="com.yq.datadriver.ParameterDemo"/>

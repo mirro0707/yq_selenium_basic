@@ -18,7 +18,7 @@ public class LoggerControler {
     private static Logger logger = null;
     private static LoggerControler logg = null;
 
-    public static LoggerControler getlogger(Class<?> T) {
+    public static LoggerControler getLogger(Class<?> T) {
         if (logger == null) {
 //           实例化 Properties 类，处理 .properties格式的文件
             Properties props = new Properties();

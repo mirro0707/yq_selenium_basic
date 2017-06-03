@@ -14,7 +14,7 @@ import java.util.HashMap;
  * Excel作为数据驱动（poi支持到2007）
  */
 public class ExcelTest {
-    final static LoggerControler log = LoggerControler.getlogger(ExcelUtils.class);
+    final static LoggerControler log = LoggerControler.getLogger(ExcelUtils.class);
 
 
     /**

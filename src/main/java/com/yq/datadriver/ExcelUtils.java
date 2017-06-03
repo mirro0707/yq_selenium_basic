@@ -16,7 +16,7 @@ import java.io.InputStream;
  * Created by YQ on 2017/5/27.
  */
 public class ExcelUtils {
-    final static LoggerControler log = LoggerControler.getlogger(ExcelUtils.class);
+    final static LoggerControler log = LoggerControler.getLogger(ExcelUtils.class);
     /**
      * 创建 workbook
      *

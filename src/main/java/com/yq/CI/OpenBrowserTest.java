@@ -9,7 +9,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 /**
- * 此类用于jenkins集成测试
+ * 此类用于jenkins集成测试！
  */
 public class OpenBrowserTest {
     WebDriver driver;
