@@ -3,9 +3,10 @@ package com.yq.testng;
 import org.testng.annotations.Test;
 
 /**
- * Created by YQ on 2017/5/24.
+ * 练习注解的顺序2
+ * 执行方式：testngCI2.xml
  */
-public class MyTestClass2 extends AbstractTest {
+public class MyAnnotationTest2 extends AbstractAnnotation {
 
     @Test
     public void myTestMethod3() {

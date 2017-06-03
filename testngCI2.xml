@@ -3,14 +3,14 @@
 <suite name="Suite">
     <test name="Test1" >
         <classes>
-            <class name="com.yq.testng.MyTestClass2" />
+            <class name="com.yq.testng.MyAnnotationTest2" />
         </classes>
     </test>
 
     <test name="Test2">
         <classes>
-            <class name="com.yq.testng.MyTestClass1"/>
-            <class name="com.yq.testng.MyTestClass2"/>
+            <class name="com.yq.testng.MyAnnotationTest"/>
+            <class name="com.yq.testng.MyAnnotationTest2"/>
         </classes>
     </test>
 </suite>

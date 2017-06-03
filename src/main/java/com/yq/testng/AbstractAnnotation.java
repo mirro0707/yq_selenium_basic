@@ -3,9 +3,9 @@ package com.yq.testng;
 import org.testng.annotations.*;
 
 /**
- * Created by YQ on 2017/5/24.
+ * 练习注解的顺序的继承类
  */
-public class AbstractTest {
+public class AbstractAnnotation {
     @BeforeSuite
     public void beforeSuite() {
         System.out.println("BeforeSuite");
